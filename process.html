@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_process">Our Process</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" class="active" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get
+                    in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="process-page-container">
+        <section class="page-header-section">
+            <h1 data-i18n-key="page_header_process_title">Our Process</h1>
+            <p data-i18n-key="page_header_process_p1">Discover how we turn innovative ideas into impactful AI solutions.
+                Our systematic approach ensures clarity, collaboration, and outstanding results every step of the way.
+            </p>
+        </section>
+
+        <section class="process-steps-section">
+            <div class="process-step-item">
+                <div class="step-number-container">
+                    <span class="step-number" data-i18n-key="process_step1_num">01</span>
+                </div>
+                <div class="step-content">
+                    <h3 data-i18n-key="process_step1_title">Discovery & Consultation</h3>
+                    <p data-i18n-key="process_step1_desc">We start by thoroughly understanding your vision, objectives,
+                        and the unique challenges you face. Through in-depth consultations and workshops, we
+                        meticulously define the project scope, identify key performance indicators, and outline a
+                        strategic roadmap tailored to ensure your project's success from day one.</p>
+                </div>
+            </div>
+
+            <div class="process-step-item">
+                <div class="step-number-container">
+                    <span class="step-number" data-i18n-key="process_step2_num">02</span>
+                </div>
+                <div class="step-content">
+                    <h3 data-i18n-key="process_step2_title">Design & Prototyping</h3>
+                    <p data-i18n-key="process_step2_desc">Our design team crafts intuitive, user-centric interfaces and
+                        experiences. We develop interactive prototypes that allow you to visualize and interact with the
+                        proposed solution early on, ensuring alignment and incorporating your feedback before full-scale
+                        development begins.</p>
+                </div>
+            </div>
+
+            <div class="process-step-item">
+                <div class="step-number-container">
+                    <span class="step-number" data-i18n-key="process_step3_num">03</span>
+                </div>
+                <div class="step-content">
+                    <h3 data-i18n-key="process_step3_title">Development & Integration</h3>
+                    <p data-i18n-key="process_step3_desc">Leveraging agile methodologies and cutting-edge AI
+                        technologies, our skilled developers build robust, scalable, and secure solutions. We focus on
+                        clean code and ensure seamless integration with your existing systems and workflows for a smooth
+                        transition.</p>
+                </div>
+            </div>
+
+            <div class="process-step-item">
+                <div class="step-number-container">
+                    <span class="step-number" data-i18n-key="process_step4_num">04</span>
+                </div>
+                <div class="step-content">
+                    <h3 data-i18n-key="process_step4_title">Testing & Quality Assurance</h3>
+                    <p data-i18n-key="process_step4_desc">Quality is paramount. We conduct rigorous testing at every
+                        development stage, including functional, performance, and security testing. Our comprehensive QA
+                        process identifies and resolves any issues, guaranteeing a polished and reliable final product.
+                    </p>
+                </div>
+            </div>
+
+            <div class="process-step-item">
+                <div class="step-number-container">
+                    <span class="step-number" data-i18n-key="process_step5_num">05</span>
+                </div>
+                <div class="step-content">
+                    <h3 data-i18n-key="process_step5_title">Deployment & Ongoing Support</h3>
+                    <p data-i18n-key="process_step5_desc">Once the solution passes all quality checks, we manage the
+                        deployment process. Our commitment extends beyond launch; we provide continuous support,
+                        monitoring, and maintenance to ensure long-term success, optimal performance, and adaptation to
+                        future needs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+
+</html>

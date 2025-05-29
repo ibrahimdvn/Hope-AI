@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_faq">FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" class="active" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="faq-page-container">
+        <section class="page-header-section">
+            <h1 data-i18n-key="faq_main_title">Frequently Asked Questions</h1>
+            <p data-i18n-key="faq_main_subtitle">Have questions? We’ve got answers! Explore our FAQ to find information about our services, processes, and how we can help your business thrive with AI.</p>
+        </section>
+
+        <section class="faq-list-section">
+            <article class="faq-item">
+                <h3 class="faq-question" data-i18n-key="faq_q1_question">What kind of artificial intelligence solutions do you offer?</h3>
+                <div class="faq-answer">
+                    <p data-i18n-key="faq_q1_answer">We offer a wide range of AI solutions, including custom chatbot development, AI-powered content creation, predictive analytics, machine learning model development, and AI strategy consulting. Our goal is to tailor solutions to your specific business needs.</p>
+                </div>
+            </article>
+
+            <article class="faq-item">
+                <h3 class="faq-question" data-i18n-key="faq_q2_question">How long does it take to develop a custom AI solution?</h3>
+                <div class="faq-answer">
+                    <p data-i18n-key="faq_q2_answer">The timeline for developing a custom AI solution can vary significantly based on the complexity of the project, the amount of data involved, and specific requirements. After the initial consultation and discovery phase, we provide a detailed project timeline. Simple chatbot integrations may take a few weeks, while more complex machine learning models could take several months.</p>
+                </div>
+            </article>
+
+            <article class="faq-item">
+                <h3 class="faq-question" data-i18n-key="faq_q3_question">What is your pricing model?</h3>
+                <div class="faq-answer">
+                    <p>
+                        <span data-i18n-key="faq_q3_answer_part1">We offer flexible pricing models to suit different needs; these include project-based pricing for custom solutions and tiered subscription plans for some of our standardized services. For more details, please visit our </span>
+                        <a href="pricing.html" class="inline-link" data-i18n-key="faq_q3_answer_link_text">Pricing Page</a>
+                        <span data-i18n-key="faq_q3_answer_part2"> or contact us for a custom quote.</span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq-item">
+                <h3 class="faq-question" data-i18n-key="faq_q4_question">Do you provide ongoing support and maintenance?</h3>
+                <div class="faq-answer">
+                    <p data-i18n-key="faq_q4_answer">Yes, absolutely. We believe in building long-term partnerships. All our AI solutions come with ongoing support, maintenance, and performance monitoring options to ensure they continue to deliver value and adapt to your evolving needs.</p>
+                </div>
+            </article>
+
+            <article class="faq-item">
+                <h3 class="faq-question" data-i18n-key="faq_q5_question">Which industries do you typically work with?</h3>
+                <div class="faq-answer">
+                    <p data-i18n-key="faq_q5_answer">We have experience working across various industries, including e-commerce, finance, healthcare, education, and technology. Our AI solutions are adaptable and can add value to almost any sector looking to leverage data and automation.</p>
+                </div>
+            </article>
+            </section>
+
+        <section class="faq-contact-prompt">
+            <h2 data-i18n-key="faq_contact_prompt_title">Do you still have questions?</h2>
+            <p data-i18n-key="faq_contact_prompt_text">If you can't find the answer you're looking for, please don't hesitate to reach out to our team. We're here to help!</p>
+            <a href="contact.html" class="btn btn-primary" data-i18n-key="faq_contact_us_button">Contact Us</a>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script src="translation.js" defer></script>
+    <script src="language-switcher.js" defer></script>
+</body>
+</html>

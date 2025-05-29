@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_contact">Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" class="active" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get
+                    in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-page-container">
+        <section class="page-header-section">
+            <h1 data-i18n-key="page_header_contact_title">Get in Touch</h1>
+            <p data-i18n-key="page_header_contact_p1">We're here to answer any questions you may have about our AI
+                solutions. Reach out to us and we'll respond as soon as we can.</p>
+        </section>
+
+        <section class="contact-content-section">
+            <div class="contact-form-container">
+                <h2 data-i18n-key="contact_form_title">Send Us a Message</h2>
+                <form id="contactForm" action="send_mail.php" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-i18n-key="contact_form_label_name">Full Name</label>
+                        <input type="text" id="name" name="name"
+                            data-i18n-placeholder-key="contact_form_placeholder_name" placeholder="e.g., Alex" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n-key="contact_form_label_email">Email Address</label>
+                        <input type="email" id="email" name="email"
+                            data-i18n-placeholder-key="contact_form_placeholder_email"
+                            placeholder="e.g., example@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-i18n-key="contact_form_label_subject">Subject</label>
+                        <input type="text" id="subject" name="subject"
+                            data-i18n-placeholder-key="contact_form_placeholder_subject"
+                            placeholder="e.g., AI Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n-key="contact_form_label_message">Your Message</label>
+                        <textarea id="message" name="message" rows="6"
+                            data-i18n-placeholder-key="contact_form_placeholder_message"
+                            placeholder="Tell us more about your project or question..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn"
+                        data-i18n-key="contact_form_button_send">Send Message</button>
+                </form>
+            </div>
+
+            <aside class="contact-details-container">
+                <h2 data-i18n-key="contact_info_title">Contact Information</h2>
+                <p data-i18n-key="contact_info_p1">Alternatively, you can reach us through the following channels. We
+                    aim to respond promptly.</p>
+                <ul class="contact-details-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong data-i18n-key="contact_info_loc_title">Our Location</strong>
+                            <p data-i18n-key="contact_info_loc_text">Vilnius, Lithuania</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong data-i18n-key="contact_info_email_title">Email Us</strong>
+                            <p><a href="mailto:ibrahimcanduven1@gmail.com" class="contact-link"
+                                    data-i18n-key="contact_info_email_text">ibrahimcanduven1@gmail.com</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong data-i18n-key="contact_info_call_title">Call Us</strong>
+                            <p><a href="tel:+37062927789" class="contact-link"
+                                    data-i18n-key="contact_info_call_text">+370 (629) 27 789</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong data-i18n-key="contact_info_hours_title">Business Hours</strong>
+                            <p data-i18n-key="contact_info_hours_ln1">Monday - Friday: 9:00 AM - 6:00 PM (EEST)</p>
+                            <p data-i18n-key="contact_info_hours_ln2">Saturday - Sunday: Closed</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="contact-social-links-wrapper">
+                    <h3 data-i18n-key="contact_info_follow_title">Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/ibrahimdven" aria-label="Instagram" class="social-icon-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/ibrahimdvn" aria-label="GitHub" class="social-icon-link"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="map-section">
+            <h2 data-i18n-key="contact_map_title">Find Us On Map</h2>
+            <div class="map-embed-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73805.3989781104!2d25.19341979705963!3d54.687155500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f1%3A0x400d18c70e9dc40!2sVilnius%2C%20Vilnius%20City%20Municipality%2C%20Lithuania!5e0!3m2!1sen!2sus!4v1716844019399!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+
+</html>

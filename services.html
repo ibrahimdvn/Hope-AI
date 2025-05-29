@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_services">Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" class="active" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="services-page-container">
+    <section class="page-header-section">
+        <h1 data-i18n-key="page_header_services_title">Our Services</h1>
+        <p data-i18n-key="page_header_services_p1">Welcome to our services page! Here we will detail the innovative AI solutions we provide to help your company thrive.</p>
+        <p data-i18n-key="page_header_services_p2">Currently, this page is a placeholder. You can add more specific content about Chatbot Development, Content Creation, and any other services you plan to offer, similar to what was mocked up on the homepage.</p>
+    </section>
+
+    <section class="services-list-section">
+        <article class="service-item-card">
+            <h3 data-i18n-key="service_chatbot_title">Chatbot Development</h3>
+            <p data-i18n-key="services_page_chatbot_desc">Details about your advanced NLP chatbots... You can add a more detailed and engaging description of your service here.</p>
+            <a href="chatbot.development.html" class="btn btn-secondary service-learn-more" data-i18n-key="learn_more_arrow">Learn More →</a>
+        </article>
+
+        <article class="service-item-card">
+            <h3 data-i18n-key="service_content_creation_title">Content Creation</h3>
+            <p data-i18n-key="services_page_content_creation_desc">Information on AI-powered content generation... Highlight the benefits and features of your content creation service here.</p>
+            <a href="content-creation.html" class="btn btn-secondary service-learn-more" data-i18n-key="learn_more_arrow">Learn More →</a>
+        </article>
+
+        <article class="service-item-card">
+            <h3 data-i18n-key="service_card_custom_ai_title">Custom AI Solutions</h3>
+            <p data-i18n-key="services_page_custom_ai_desc">More about tailoring solutions to specific client needs... Explain the flexibility and power of your custom AI solutions here.</p>
+            <a href="custom-ai-solutions.html" class="btn btn-secondary service-learn-more" data-i18n-key="learn_more_arrow">Learn More →</a>
+        </article>
+    </section>
+</main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+</html>

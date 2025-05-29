@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_index">Hope AI Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" class="active" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get
+                    in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-i18n-key="hero_title">Hope AI studio.</h1>
+                <p data-i18n-key="hero_subtitle">We develop custom AI solutions for innovative companies.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n-key="hero_button_services">Our
+                        services</a>
+                    <a href="contact.html" class="btn btn-secondary" data-i18n-key="hero_button_contact">contact us
+                        →</a>
+                </div>
+            </div>
+            <div class="hero-background-blur"></div>
+        </section>
+
+        <section class="statement-section">
+            <h2 data-i18n-key="statement_title">We're Hope. We develop custom AI solutions for innovative companies.
+            </h2>
+            <a href="contact.html" class="btn btn-primary" data-i18n-key="get_in_touch">Get in touch</a>
+        </section>
+
+        <section class="what-we-do">
+            <h2 data-i18n-key="what_we_do_title">What we do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="mockup chat-mockup">
+                        <div class="chat-bubble user">
+                            <span data-i18n-key="chat_mockup_user_text_line1">You: 8:52 AM</span> <br>
+                            <span data-i18n-key="chat_mockup_user_text_line2">schedule a Google meeting with John for
+                                3:45PM tomorrow</span>
+                        </div>
+                        <div class="chat-bubble ai">
+                            <span data-i18n-key="chat_mockup_ai_text_line1">AI Assistant: 8:53 AM</span> <br>
+                            <span data-i18n-key="chat_mockup_ai_text_line2">Okay, I've scheduled a Google meeting with
+                                John for 3:45PM tomorrow.</span>
+                        </div>
+                        <div class="chat-input-bar">
+                            <span data-i18n-key="chat_mockup_input_placeholder">Message AI Assistant...</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <h3 data-i18n-key="service_chatbot_title">Chatbot Development</h3>
+                    <p data-i18n-key="service_chatbot_desc">We develop intelligent chatbots that leverage advanced NLP
+                        to elevate customer experiences and
+                        streamline communication processes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="mockup image-mockup">
+                        <div class="image-gen-text" data-i18n-key="image_mockup_generating_text">Generating image...
+                        </div>
+                        <div class="image-gen-input-bar">
+                            <span data-i18n-key="image_mockup_input_placeholder">Generate an image of...</span>
+                            <button data-i18n-key="image_mockup_button_generate">Generate</button>
+                        </div>
+                    </div>
+                    <h3 data-i18n-key="service_content_creation_title">Content Creation</h3>
+                    <p data-i18n-key="service_content_creation_desc">Our content creation solutions effortlessly
+                        generate high-quality, engaging text, images, and
+                        multimedia tailored to your brand's unique voice.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+
+</html>

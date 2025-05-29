@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_pricing">Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" class="active" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get
+                    in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pricing-page-container">
+        <section class="page-header-section">
+            <h1 data-i18n-key="page_header_pricing_title">Flexible Pricing Plans</h1>
+            <p data-i18n-key="page_header_pricing_p1">Choose the perfect plan that aligns with your business needs and
+                goals. Transparent pricing for innovative AI solutions designed to deliver exceptional value.</p>
+        </section>
+
+        <section class="pricing-plans-section">
+            <article class="pricing-plan-card">
+                <div class="plan-header">
+                    <h3 class="plan-name" data-i18n-key="pricing_starter_name">Starter</h3>
+                    <p class="plan-price">
+                        <span class="price-amount" data-i18n-key="pricing_starter_price">$99</span>
+                        <span class="price-period" data-i18n-key="pricing_starter_period">/month</span>
+                    </p>
+                    <p class="plan-description" data-i18n-key="pricing_starter_desc">Ideal for individuals and small
+                        teams getting started with AI.</p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_starter_feat1">Basic AI Chatbot
+                            Integration</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_starter_feat2">Up to 1,000
+                            Interactions/Month</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_starter_feat3">Standard Content
+                            Generation (50 pieces)</span></li>
+                    <li><i class="fas fa-times-circle feature-absent"></i> <span
+                            data-i18n-key="pricing_starter_feat4_absent">Advanced Analytics</span></li>
+                    <li><i class="fas fa-times-circle feature-absent"></i> <span
+                            data-i18n-key="pricing_starter_feat5_absent">Priority Support</span></li>
+                </ul>
+                <a href="starter-odeme.html" class="btn btn-secondary plan-cta"
+                    data-i18n-key="pricing_starter_cta">Choose Starter</a>
+            </article>
+
+            <article class="pricing-plan-card recommended">
+                <div class="plan-badge" data-i18n-key="pricing_pro_badge">Most Popular</div>
+                <div class="plan-header">
+                    <h3 class="plan-name" data-i18n-key="pricing_pro_name">Professional</h3>
+                    <p class="plan-price">
+                        <span class="price-amount" data-i18n-key="pricing_pro_price">$299</span>
+                        <span class="price-period" data-i18n-key="pricing_pro_period">/month</span>
+                    </p>
+                    <p class="plan-description" data-i18n-key="pricing_pro_desc">Perfect for growing businesses needing
+                        more power and features.</p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_pro_feat1">Advanced AI Chatbot
+                            (NLP)</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_pro_feat2">Up to 10,000
+                            Interactions/Month</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_pro_feat3">Premium Content
+                            Generation (200 pieces)</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_pro_feat4">Advanced Analytics &
+                            Reporting</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_pro_feat5">Priority Email
+                            Support</span></li>
+                </ul>
+                <a href="professional-odeme.html" class="btn btn-primary plan-cta"
+                    data-i18n-key="pricing_pro_cta">Choose Professional</a>
+            </article>
+
+            <article class="pricing-plan-card">
+                <div class="plan-header">
+                    <h3 class="plan-name" data-i18n-key="pricing_enterprise_name">Enterprise</h3>
+                    <p class="plan-price"><span class="price-custom"
+                            data-i18n-key="pricing_enterprise_price_custom">Custom</span></p>
+                    <p class="plan-description" data-i18n-key="pricing_enterprise_desc">Tailored solutions for large
+                        organizations with specific requirements.</p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_enterprise_feat1">Fully
+                            Customizable AI Solutions</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_enterprise_feat2">Unlimited
+                            Interactions & Usage</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_enterprise_feat3">Dedicated
+                            Account Manager & SLA</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_enterprise_feat4">24/7 Premium
+                            Support</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n-key="pricing_enterprise_feat5">Custom
+                            Integrations & API Access</span></li>
+                </ul>
+                <a href="contact-enterprise.html" class="btn btn-secondary plan-cta"
+                    data-i18n-key="pricing_enterprise_cta">Contact Us</a>
+            </article>
+        </section>
+
+        <section class="pricing-faq-section">
+            <h2 data-i18n-key="pricing_faq_title">Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h4 data-i18n-key="pricing_faq1_q">Can I change my plan later?</h4>
+                <p data-i18n-key="pricing_faq1_a">Yes, you can upgrade or downgrade your plan at any time. Changes will
+                    be reflected in your next billing cycle.</p>
+            </div>
+            <div class="faq-item">
+                <h4 data-i18n-key="pricing_faq2_q">What payment methods do you accept?</h4>
+                <p data-i18n-key="pricing_faq2_a">We accept all major credit cards, as well as PayPal. For Enterprise
+                    plans, we also offer invoicing options.</p>
+            </div>
+            <div class="faq-item">
+                <h4 data-i18n-key="pricing_faq3_q">Is there a free trial available?</h4>
+                <p data-i18n-key="pricing_faq3_a">We offer a 14-day free trial for our Professional plan. No credit card
+                    is required to get started and explore its features!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+
+</html>

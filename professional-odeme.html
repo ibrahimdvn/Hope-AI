@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n-key="site_title_professional_payment">Professional Plan Ödeme - Hope AI Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">✶ Hope</div>
+            <ul>
+                <li><a href="index.html" data-i18n-key="nav_home">Home</a></li>
+                <li><a href="services.html" data-i18n-key="nav_services">Services</a></li>
+                <li><a href="process.html" data-i18n-key="nav_process">Process</a></li>
+                <li><a href="pricing.html" class="active" data-i18n-key="nav_pricing">Pricing</a></li>
+                <li><a href="faq.html" data-i18n-key="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" data-i18n-key="nav_contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center;">
+                <a href="contact.html" class="nav-button" style="margin-right: 10px;" data-i18n-key="get_in_touch">Get
+                    in touch</a>
+                <div class="language-switcher">
+                    <button class="language-button">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang-text" data-i18n-key="current_lang_display">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="tr">Türkçe</a>
+                        <a href="#" data-lang="it">Italiano</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-container" style="padding: 40px 5%; max-width: 800px; margin: 40px auto;">
+        <div class="back-button-container" style="margin-bottom: 30px;">
+            <a href="pricing.html" class="btn-back">
+                <i class="fas fa-arrow-left"></i>
+                <span data-i18n-key="payment_page_back_button_text">Back to Pricing</span>
+            </a>
+        </div>
+
+        <section class="page-header-section" style="text-align: left; margin-bottom: 30px;">
+            <h1 style="font-size: 2.8em;" data-i18n-key="payment_page_pro_title">Payment for Professional Plan</h1>
+            <p style="font-size: 1.1em; max-width: 100%;" data-i18n-key="payment_page_pro_desc">To purchase the
+                Professional Plan ($299/month), please use the bank
+                details below to complete your payment.</p>
+        </section>
+
+        <section class="payment-details-content"
+            style="background-color: var(--card-bg); padding: 35px 40px; border-radius: 10px; border: 1px solid var(--border-color);">
+            <h3 style="font-size: 1.8em; margin-bottom: 20px; color: var(--text-color); border-bottom: 1px solid var(--border-color); padding-bottom:10px;"
+                data-i18n-key="payment_bank_transfer_title">
+                Bank Transfer / EFT Information</h3>
+
+            <p style="margin-bottom: 10px;"><strong data-i18n-key="payment_bank_name_label">Bank Name:</strong> <span
+                    data-i18n-key="payment_bank_name_value">Garanti Bankası</span></p>
+            <p style="margin-bottom: 10px;"><strong data-i18n-key="payment_account_holder_label">Account Holder Name /
+                    Company Name:</strong> <span data-i18n-key="payment_account_holder_value">İbrahim Can Düven</span>
+            </p>
+            <p style="margin-bottom: 20px;"><strong data-i18n-key="payment_iban_label">IBAN Number:</strong> <span
+                    data-i18n-key="payment_iban_value">TR45 0006 2000 0220 0006 8947 55</span></p>
+
+            <hr style="border-color: var(--border-color); margin: 25px 0;">
+
+            <h4 style="font-size: 1.4em; margin-top: 25px; margin-bottom: 15px; color: var(--text-color);"
+                data-i18n-key="payment_description_title">Payment
+                Description (Please Fill Out Completely)</h4>
+            <p data-i18n-key="payment_description_instruction">To ensure your payment is correctly matched and your
+                service is activated quickly, please include the
+                following information in the <strong>Description (Description / Reference)</strong> section of your bank
+                transfer:</p>
+            <ul
+                style="list-style-type: decimal; padding-left: 20px; margin-top:10px; margin-bottom: 25px; line-height: 1.8;">
+                <li><strong data-i18n-key="payment_desc_item_plan_name_label">Plan Name:</strong> <span
+                        data-i18n-key="payment_desc_item_plan_name_pro">Professional Plan</span></li>
+                <li><strong data-i18n-key="payment_desc_item_email_label">Your Email Address:</strong> <span
+                        data-i18n-key="payment_desc_item_email_placeholder">ibrahimcanduven1@gmail.com</span> <em
+                        data-i18n-key="payment_desc_item_email_note">(This is required for us to contact you and inform
+                        you about your plan activation)</em></li>
+            </ul>
+
+            <div
+                style="background-color: #111; border: 1px solid var(--border-color); border-left: 3px solid var(--primary-accent); padding: 15px; border-radius: 5px; font-size: 0.95em; color: var(--secondary-accent);">
+                <p style="margin:0;" data-i18n-key="payment_confirmation_note_line1">Once your payment is received in
+                    our bank account (usually on the same day or the next business day), your plan will be activated and
+                    a confirmation message will be sent to your registered email address.
+                </p>
+                <p style="margin-top:10px; margin-bottom:0;" data-i18n-key="payment_contact_note">If you have any
+                    questions or would like to provide information after payment, please contact us via <a
+                        href="contact.html" class="inline-link">our contact page</a> or at ibrahimcanduven1@gmail.com.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer style="margin-top: 60px;">
+        <p data-i18n-key="footer_copyright">&copy; 2025 Hope AI Studio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="language-switcher.js"></script>
+    <script src="translation.js"></script>
+</body>
+
+</html>
